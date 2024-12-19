@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+header{
+    margin: 0;
+    background-color: #1C1E53;
+    height: 80vh;
+}
+/* Nav header */
+nav{
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px ;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+nav ul a{
+    color: #BBBBCB;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: auto;
+}
+.nav-links .contact-button{
+    all: unset;
+    margin: 0 30px;
+    border: solid #f4f6fc30 1px;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 41px;
+
+}
+.nav-links .contact-button:hover{
+    background-color: #BBBBCB;
+    cursor: pointer;
+}
+
+/* content-header */
+.content-header{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+}
+
+.right-text h1{
+    width: 90%;
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.right-text p{
+    color: #ffffff8b;
+    width: 80%;
+    margin: 40px 0;
+}
+.right-text button{
+    all: unset;
+    background-color: #FCD980;
+    color: #1B1C2B;
+    padding: 20px 50px;
+    border-radius: 41px;
+    font-weight:bold ;
+    font-size: 18px;
+}
+.right-text button:hover{
+    background-color: #fcd167;
+    cursor: pointer;
+}
+
+.right-text span{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.right-text span:hover{
+    cursor: pointer;
+    color:#BBBBCB;
+}
+
+/* Main Section */
+.main-second{
+    background-color: #F4F6FC; 
+}
+.second-contaner{
+    width: 80%;
+    margin:  auto;
+    padding: 120px;
+    display: flex;
+    /*background-color: #F4F6FC;*/
+
+}
+.home-right h1{
+    font-size: 45px;
+}
+.home-right p{
+    width: 60%;
+    margin: 20px 0;
+}
+.home-right a{
+    color: #2405F2;
+    text-decoration: none;
+    font-weight: bold;
+}
+.home-left{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.home-right h1{
+    
+}
+.home-left .content-conterner{
+    width: 45%;
+    margin: 10px ;
+    margin-bottom: 40px;
+    color: #282938;
+    
+}
+.home-left .content-conterner p{
+    color: #282938a6;
+}
+
+/* Form section */
+.form-section{
+    display: flex;
+    width: 70%;
+    margin: 120px auto;
+    height: 711px;
+    box-shadow: 10px 10px 5px lightblue;
+
+}
+.img-left{
+    background-image: linear-gradient(to right ,#1c1e5390,#1c1e5353), url(./img/woman-writing-on-paper-3228878.png);
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+
+}
+.img-left h1{
+    color: #fff;
+    font-size: 50px;
+    padding: 90px;
+    padding-bottom: 50px;
+
+}
+.img-left p{
+    color: #fff;
+    padding: 0px 90px 90px 90px;
+
+}
+.right-contenrt-form{
+    background-color: #1C1E53;
+    padding-top: 100px;
+    padding-left: 90px;
+
+}
+.right-contenrt-form h3{
+    color: #fff;
+    font-size: 30px;
+}
+.right-contenrt-form P{
+    color: #fff;
+    width: 70%;
+    margin: 30px 0;
+}
+.form-in input{
+    all: unset;
+    display: block;
+    width: 80%;
+    margin-top: 20px;
+    border: solid rgba(222, 222, 222, 0.161) 1px;
+    padding: 20px;
+    color: #F4F6FC;
+    border-radius: 8px;
+}
+.form-in button{
+    all: unset;
+    width: 71%;
+    background-color: #FCD980;
+    color: #1B1C2B;
+    padding: 20px 50px;
+    border-radius: 41px;
+    font-weight:bold ;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+.form-in button:hover{
+    background-color: #fccc52;
+    cursor: pointer;
+}
+.form-in p{
+    text-align: center;
+    width: 90%;
+}
+.form-in p:hover{
+    color: #BBBBCB;
+    cursor: pointer;
+}
+/* Blods Section */
+.blogs{
+    width: 70%;
+    margin: auto;
+}
+.blogs h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.blogs-contaner{
+    display: flex;
+}
+.blog-card p{
+    margin:  20px 0px;
+    color: #00000088;
+    font-weight: bold;
+}
+.blog-card h3{
+    font-size: 25px;
+}
+.blog-card a{
+    text-decoration: none;
+    color: #1B1C2B;
+    font-weight: bold;
+}
+
+/* Footer Section */
+.footer-foot{
+    background-color: #1C1E53;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+.top-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1C1E53;
+    margin: auto;
+}
+.down-{
+    display: flex;
+    background-color: #fccc52;
+    width: 60%;
+    margin-top:10px ;
+    padding: 10px;
+}
+.down- h6{
+    font-weight: bold;
+    font-size: 20px;
+}
+.section-left h2{
+    color: #fff;
+}
+.section-left .up p{
+    color: #fff;
+}
+.section-right {
+    color: #fff;
+}
+.icons i{
+    margin: 10px;
+}
